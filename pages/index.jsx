@@ -1,7 +1,10 @@
+import Link from "next/link";
+import Layout from "../comps/Layout";
+
 const Index = () => (
-  <div>
+  <Layout>
     <p>Hello Next.js</p>
-  </div>
+  </Layout>
 );
 
 export default Index;
